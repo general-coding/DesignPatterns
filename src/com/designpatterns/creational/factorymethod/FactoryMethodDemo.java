@@ -12,7 +12,6 @@ public class FactoryMethodDemo {
             case "gif":
                 imageReader = new GifReader(image);
                 break;
-
             case "jpeg":
                 imageReader = new JpegReader(image);
                 break;
