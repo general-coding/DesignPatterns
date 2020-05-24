@@ -1,6 +1,6 @@
 package com.designpatterns.creational.abstractfactory.factorymethod;
 
-public abstract class AbstractFactory {
+abstract class AbstractFactory {
     private static final EmberToolkit EMBER_TOOLKIT = new EmberToolkit();
     private static  final EnginolaToolkit ENGINOLA_TOOLKIT = new EnginolaToolkit();
 

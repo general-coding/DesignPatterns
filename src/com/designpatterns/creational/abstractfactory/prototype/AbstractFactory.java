@@ -1,6 +1,6 @@
 package com.designpatterns.creational.abstractfactory.prototype;
 
-public abstract class AbstractFactory {
+abstract class AbstractFactory {
     public Expression prototype;
 
     public Expression makePhase(){

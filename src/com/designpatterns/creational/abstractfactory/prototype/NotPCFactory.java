@@ -1,6 +1,6 @@
 package com.designpatterns.creational.abstractfactory.prototype;
 
-public class NotPCFactory extends AbstractFactory {
+class NotPCFactory extends AbstractFactory {
 
     public NotPCFactory() {
         prototype = new NotPCPhase();

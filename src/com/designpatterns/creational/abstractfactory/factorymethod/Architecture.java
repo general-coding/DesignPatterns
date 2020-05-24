@@ -1,6 +1,6 @@
 package com.designpatterns.creational.abstractfactory.factorymethod;
 
-public enum Architecture {
+enum Architecture {
     ENGINOLA,
     EMBER
 }

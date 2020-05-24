@@ -1,6 +1,6 @@
 package com.designpatterns.creational.abstractfactory.factorymethod;
 
-public class EnginolaToolkit extends AbstractFactory {
+class EnginolaToolkit extends AbstractFactory {
     @Override
     public CPU createCPU() {
         return new EnginolaCPU();

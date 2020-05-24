@@ -1,6 +1,6 @@
 package com.designpatterns.creational.abstractfactory.prototype;
 
-public class Expression implements Cloneable {
+class Expression implements Cloneable {
     public String expression;
 
     public Expression(String expression) {

@@ -1,6 +1,6 @@
 package com.designpatterns.creational.abstractfactory.prototype;
 
-public class NotPCPhase extends Expression {
+class NotPCPhase extends Expression {
     private static int next = 0;
     private static final String[] list = {"pet", "short", "lie", "old"};
 
