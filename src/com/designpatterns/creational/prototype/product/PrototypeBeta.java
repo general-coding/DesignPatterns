@@ -1,4 +1,4 @@
-package com.designpatterns.creational.prototype;
+package com.designpatterns.creational.prototype.product;
 
 class PrototypeBeta implements Prototype {
     private String name = "BetaVersion";

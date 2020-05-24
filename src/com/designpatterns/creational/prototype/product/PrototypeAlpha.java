@@ -1,4 +1,4 @@
-package com.designpatterns.creational.prototype;
+package com.designpatterns.creational.prototype.product;
 
 // 5. Sign-up for the clone() contract.
 // Each class calls "new" on itself FOR the client.

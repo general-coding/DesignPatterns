@@ -14,7 +14,7 @@ public class JDBCConnectionPool extends ObjectPool<Connection> {
     public JDBCConnectionPool(String driver, String dsn, String usr, String pwd) {
         super();
         try {
-            Class.forName(driver).newInstance();
+            Class.forName(driver).getDeclaredConstructor().newInstance();
         } catch (Exception e) {
             e.printStackTrace();
         }

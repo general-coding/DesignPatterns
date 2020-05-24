@@ -3,7 +3,8 @@ package com.designpatterns.creational.singleton.threadsafe;
 public final class Singleton {
     private static volatile Singleton instance;
 
-    private Singleton() {}
+    private Singleton() {
+    }
 
     public static Singleton getInstance(String value) {
         if (instance == null) {
