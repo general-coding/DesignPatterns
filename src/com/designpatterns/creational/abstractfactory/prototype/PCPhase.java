@@ -1,10 +1,9 @@
 package com.designpatterns.creational.abstractfactory.prototype;
 
 class PCPhase extends Expression {
-    private static int next = 0;
-
     private static final String[] list = {"animal companion", "vertically challenged", "factually inaccurat"
-    , "chronologically gifted"};
+            , "chronologically gifted"};
+    private static int next = 0;
 
     public PCPhase() {
         super(list[next]);

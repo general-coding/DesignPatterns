@@ -2,11 +2,11 @@ package com.designpatterns.creational.abstractfactory.factorymethod;
 
 abstract class AbstractFactory {
     private static final EmberToolkit EMBER_TOOLKIT = new EmberToolkit();
-    private static  final EnginolaToolkit ENGINOLA_TOOLKIT = new EnginolaToolkit();
+    private static final EnginolaToolkit ENGINOLA_TOOLKIT = new EnginolaToolkit();
 
-    static  AbstractFactory getFactory(Architecture architecture){
+    static AbstractFactory getFactory(Architecture architecture) {
         AbstractFactory factory = null;
-        switch (architecture){
+        switch (architecture) {
             case ENGINOLA:
                 factory = ENGINOLA_TOOLKIT;
                 break;
@@ -19,7 +19,7 @@ abstract class AbstractFactory {
         return factory;
     }
 
-    public abstract  CPU createCPU();
+    public abstract CPU createCPU();
 
-    public abstract  MMU createMMU();
+    public abstract MMU createMMU();
 }

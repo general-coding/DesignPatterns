@@ -3,7 +3,7 @@ package com.designpatterns.creational.abstractfactory.prototype;
 abstract class AbstractFactory {
     public Expression prototype;
 
-    public Expression makePhase(){
+    public Expression makePhase() {
         return prototype.clone();
     }
 
