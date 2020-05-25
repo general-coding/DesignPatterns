@@ -1,7 +1,7 @@
 package com.designpatterns.structural.adapter.shapes;
 
 class RectangleAdapter implements Shape {
-    private Rectangle adaptee;
+    private final Rectangle adaptee;
 
     public RectangleAdapter(Rectangle rectangle) {
         this.adaptee = rectangle;

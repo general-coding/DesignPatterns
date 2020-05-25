@@ -1,7 +1,7 @@
 package com.designpatterns.structural.bridge.handle;
 
 class StackArray implements StackImpl {
-    private int[] items;
+    private final int[] items;
     private int total = -1;
 
     public StackArray() {

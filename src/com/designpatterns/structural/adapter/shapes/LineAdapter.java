@@ -1,7 +1,7 @@
 package com.designpatterns.structural.adapter.shapes;
 
 class LineAdapter implements Shape {
-    private Line adaptee;
+    private final Line adaptee;
 
     public LineAdapter(Line line) {
         this.adaptee = line;

@@ -1,7 +1,7 @@
 package com.designpatterns.creational.factorymethod;
 
 public class GifReader implements ImageReader {
-    private DecodeImage decodeImage;
+    private final DecodeImage decodeImage;
 
     public GifReader(String image) {
         this.decodeImage = new DecodeImage(image);

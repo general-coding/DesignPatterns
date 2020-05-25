@@ -4,7 +4,7 @@ package com.designpatterns.structural.bridge.wrapper;
  * Derive the separate implementations from the common abstraction
  */
 class StackMine implements StackImp {
-    private Object[] items = new Object[20];
+    private final Object[] items = new Object[20];
     private int total = -1;
 
     public Object push(Object o) {

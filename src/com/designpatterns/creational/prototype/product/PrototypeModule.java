@@ -5,7 +5,7 @@ import java.util.List;
 
 class PrototypeModule {
     // 2. "registry" of prototypical objs
-    private static List<Prototype> prototypes = new ArrayList<>();
+    private static final List<Prototype> prototypes = new ArrayList<>();
 
     // Adds a feature to the Prototype attribute of the PrototypesModule class
     // obj  The feature to be added to the Prototype attribute

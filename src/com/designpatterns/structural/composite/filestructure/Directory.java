@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 // Directory implements the "lowest common denominator"
 class Directory implements AbstractFile {
-    private String name;
-    private ArrayList includedFiles = new ArrayList();
+    private final String name;
+    private final ArrayList includedFiles = new ArrayList();
 
     public Directory(String name) {
         this.name = name;

@@ -1,7 +1,7 @@
 package com.designpatterns.structural.bridge.basic;
 
 class StackFIFO extends StackArray {
-    private StackArray stackArray = new StackArray();
+    private final StackArray stackArray = new StackArray();
 
     public int pop() {
         while (!isEmpty()) {

@@ -1,7 +1,7 @@
 package com.designpatterns.creational.prototype.product;
 
 class ReleasePrototype implements Prototype {
-    private String name = "ReleaseCandidate";
+    private final String name = "ReleaseCandidate";
 
     @Override
     public Prototype clone() {

@@ -1,7 +1,7 @@
 package com.designpatterns.structural.bridge.handle;
 
 class StackFIFO extends Stack {
-    private StackImpl stackImpl = new StackList();
+    private final StackImpl stackImpl = new StackList();
 
     public StackFIFO() {
         super("array");

@@ -3,7 +3,7 @@ package com.designpatterns.creational.prototype.product;
 // 5. Sign-up for the clone() contract.
 // Each class calls "new" on itself FOR the client.
 class PrototypeAlpha implements Prototype {
-    private String name = "AlphaVersion";
+    private final String name = "AlphaVersion";
 
     @Override
     public Prototype clone() {

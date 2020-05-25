@@ -1,7 +1,7 @@
 package com.designpatterns.structural.bridge.basic;
 
 class StackArray {
-    private int[] items;
+    private final int[] items;
     private int size = -1;
 
     public StackArray() {
